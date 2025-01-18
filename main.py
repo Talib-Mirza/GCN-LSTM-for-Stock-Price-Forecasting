@@ -57,7 +57,7 @@ def main():
     criterion = nn.MSELoss()
 
     # Train the model
-    model.load_state_dict(torch.load("/kaggle/working/model_weights.pth"))
+    model.load_state_dict(torch.load("model_weights.pth"))
     model.to(device)
 
     predictions, targets = validate_model(model, test_loader, edge_index, device)
