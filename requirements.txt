@@ -1,0 +1,10 @@
+yfinance
+pandas
+matplotlib.pyplot
+seaborn
+torch
+torch.nn
+torch.utils.data
+networkx
+torch_geometric
+torch.nn.functional
